@@ -34,8 +34,6 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// ================== MIDDLEWARE (İstek İşleme Sırası) ==================
-
 // ÖNEMLİ: Swagger ayarları HttpsRedirection ve Authorization'dan ÖNCE gelmeli.
 if (app.Environment.IsDevelopment())
 {

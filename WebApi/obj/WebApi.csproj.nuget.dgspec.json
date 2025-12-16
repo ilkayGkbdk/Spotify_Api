@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/betulfiliz/Development/Projects/Spotify_Api/WebApi/WebApi.csproj": {}
+    "/Users/ilkaygokbudak/Documents/GitHub/Spotify_Api/WebApi/WebApi.csproj": {}
   },
   "projects": {
-    "/Users/betulfiliz/Development/Projects/Spotify_Api/WebApi/WebApi.csproj": {
+    "/Users/ilkaygokbudak/Documents/GitHub/Spotify_Api/WebApi/WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/betulfiliz/Development/Projects/Spotify_Api/WebApi/WebApi.csproj",
+        "projectUniqueName": "/Users/ilkaygokbudak/Documents/GitHub/Spotify_Api/WebApi/WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "/Users/betulfiliz/Development/Projects/Spotify_Api/WebApi/WebApi.csproj",
-        "packagesPath": "/Users/betulfiliz/.nuget/packages/",
-        "outputPath": "/Users/betulfiliz/Development/Projects/Spotify_Api/WebApi/obj/",
+        "projectPath": "/Users/ilkaygokbudak/Documents/GitHub/Spotify_Api/WebApi/WebApi.csproj",
+        "packagesPath": "/Users/ilkaygokbudak/.nuget/packages/",
+        "outputPath": "/Users/ilkaygokbudak/Documents/GitHub/Spotify_Api/WebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/betulfiliz/.nuget/NuGet/NuGet.Config"
+          "/Users/ilkaygokbudak/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -46,37 +47,37 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[6.6.2, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[6.6.2, )"
             },
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[6.6.2, )"
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -98,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
